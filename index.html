@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERCORE | 未來科技電腦商場</title>
+    <meta name="description" content="CYBERCORE - 提供最強大的頂級電競與工作站電腦，專為未來打造。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">CYBER<span>CORE</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#products">產品</a></li>
+                <li><a href="#about">關於</a></li>
+                <li><a href="#contact">聯絡</a></li>
+            </ul>
+            <div class="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1 class="reveal">定義<span>次世代</span>效能</h1>
+            <p class="reveal">超越物理極限的極致設計，只為追求完美的你。</p>
+            <div class="hero-btns reveal">
+                <a href="#products" class="btn btn-primary">立即探索</a>
+                <a href="#about" class="btn btn-outline">了解更多</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title reveal">巔峰之作</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="assets/gaming.png" alt="Titan Gaming Desktop">
+                        <div class="badge">熱銷中</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>TITAN X1</h3>
+                        <p>極致液冷電競主機，搭配 RTX 5090 系列。</p>
+                        <div class="price">NT$ 128,800</div>
+                        <button class="btn btn-add-cart" data-name="TITAN X1" data-price="128800">加入購物車</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="assets/laptop.png" alt="Carbon Blade Laptop">
+                        <div class="badge">最輕薄</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>CARBON BLADE</h3>
+                        <p>碳纖維機身，最強大的行動工作站。</p>
+                        <div class="price">NT$ 76,500</div>
+                        <button class="btn btn-add-cart" data-name="CARBON BLADE" data-price="76500">加入購物車</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="assets/workstation.png" alt="Nexus Workstation">
+                    </div>
+                    <div class="product-info">
+                        <h3>NEXUS PRO</h3>
+                        <p>專為創作者打造，極簡鋁合金設計。</p>
+                        <div class="price">NT$ 89,900</div>
+                        <button class="btn btn-add-cart" data-name="NEXUS PRO" data-price="89900">加入購物車</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="assets/server.png" alt="Aurora Node Server">
+                    </div>
+                    <div class="product-info">
+                        <h3>AURORA NODE</h3>
+                        <p>企業級運算節點，穩定性與擴充性的極致。</p>
+                        <div class="price">NT$ 256,000</div>
+                        <button class="btn btn-add-cart" data-name="AURORA NODE" data-price="256000">加入購物車</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-title">關於 CYBERCORE</h2>
+                    <p>我們不只是電腦賣家。我們是未來科技的開拓者。每一台從我們手中送出的電腦，都經過嚴格的性能測試與美學設計，確保它不只是一台機器，而是一件藝術品。</p>
+                    <ul class="features">
+                        <li><span>✔</span> 全球最速物流</li>
+                        <li><span>✔</span> 5年頂級保固</li>
+                        <li><span>✔</span> 24/7 專家支援</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container reveal">
+            <h2 class="section-title">連繫我們</h2>
+            <div class="contact-box">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="電子郵件" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的需求" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">送出訊息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">CYBER<span>CORE</span></div>
+                <div class="footer-links">
+                    <a href="#">隱私政策</a>
+                    <a href="#">服務條款</a>
+                </div>
+                <div class="socials">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 CYBERCORE Technologies. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
